@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95AD42002BB9F9B800008FAC /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AD42002BB9F9B800008FAC /* Squares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AD42032BB9F9B800008FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95AD42052BB9F9B900008FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		95AD42072BB9F9B900008FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		95AD41F72BB9F9B800008FAC = {
 			isa = PBXGroup;
 			children = (
-				95AD42022BB9F9B800008FAC /* HelloWorld */,
+				95AD42022BB9F9B800008FAC /* Squares */,
 				95AD42012BB9F9B800008FAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		95AD42012BB9F9B800008FAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95AD42002BB9F9B800008FAC /* HelloWorld.app */,
+				95AD42002BB9F9B800008FAC /* Squares.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95AD42022BB9F9B800008FAC /* HelloWorld */ = {
+		95AD42022BB9F9B800008FAC /* Squares */ = {
 			isa = PBXGroup;
 			children = (
 				95AD42032BB9F9B800008FAC /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				95AD420E2BB9F9BA00008FAC /* LaunchScreen.storyboard */,
 				95AD42112BB9F9BA00008FAC /* Info.plist */,
 			);
-			path = HelloWorld;
+			path = Squares;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95AD41FF2BB9F9B800008FAC /* HelloWorld */ = {
+		95AD41FF2BB9F9B800008FAC /* Squares */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95AD42142BB9F9BA00008FAC /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 95AD42142BB9F9BA00008FAC /* Build configuration list for PBXNativeTarget "Squares" */;
 			buildPhases = (
 				95AD41FC2BB9F9B800008FAC /* Sources */,
 				95AD41FD2BB9F9B800008FAC /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = Squares;
 			productName = HelloWorld;
-			productReference = 95AD42002BB9F9B800008FAC /* HelloWorld.app */;
+			productReference = 95AD42002BB9F9B800008FAC /* Squares.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95AD41FB2BB9F9B800008FAC /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 95AD41FB2BB9F9B800008FAC /* Build configuration list for PBXProject "Squares" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95AD41FF2BB9F9B800008FAC /* HelloWorld */,
+				95AD41FF2BB9F9B800008FAC /* Squares */,
 			);
 		};
 /* End PBXProject section */
@@ -295,18 +295,18 @@
 				DEVELOPMENT_TEAM = B946S33967;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_CFBundleDisplayName = Squares;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Bravo.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = Bravo.Squares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -328,18 +328,18 @@
 				DEVELOPMENT_TEAM = B946S33967;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_CFBundleDisplayName = Squares;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Bravo.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = Bravo.Squares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95AD41FB2BB9F9B800008FAC /* Build configuration list for PBXProject "HelloWorld" */ = {
+		95AD41FB2BB9F9B800008FAC /* Build configuration list for PBXProject "Squares" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95AD42122BB9F9BA00008FAC /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95AD42142BB9F9BA00008FAC /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		95AD42142BB9F9BA00008FAC /* Build configuration list for PBXNativeTarget "Squares" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95AD42152BB9F9BA00008FAC /* Debug */,

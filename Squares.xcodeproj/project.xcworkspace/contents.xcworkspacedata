@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/mymacair/Desktop/Swifty/Swiftbook Lessons/HelloWorld/Squares.xcodeproj">
    </FileRef>
 </Workspace>
